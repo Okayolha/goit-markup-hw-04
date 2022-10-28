@@ -375,6 +375,7 @@ body {
 .item-icon {
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 .item-icon:not(:last-child) {
   margin-right: 30px;
@@ -472,6 +473,7 @@ address li:last-child {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--background-color);
+  fill: var(--background-color);
 }
 .list-icon-footer {
   display: flex;
@@ -490,7 +492,7 @@ address li:last-child {
   align-items: center;
   width: 44px;
   height: 44px;
-  fill: var(--second-text);
+  fill: var(--background-color);
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
