@@ -133,9 +133,8 @@ body {
   margin-right: 10px;
 }
 .auth-nav .info {
-  padding-top: 32px;
-  padding-bottom: 32px;
-
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -153,7 +152,7 @@ body {
 /* Герой */
 .hero {
   padding: 200px 0 200px 0;
-  min-width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -346,7 +345,7 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
-  fill: var(--second-text);
+  fill: var(--icons);
   cursor: pointer;
 }
 .link-social-icon:hover,
@@ -476,6 +475,7 @@ address li:last-child {
 }
 .list-icon-footer {
   display: flex;
+  align-items: baseline;
 }
 .item-icon-end {
   display: flex;
